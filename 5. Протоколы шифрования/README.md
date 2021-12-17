@@ -16,9 +16,10 @@ csv файл с ключами сервера
 Сервер хранит ключи для каждого из клиентов (по IP) Проведите рефакторинг кода клиента и сервера так, чтобы все, относящееся к генерации ключей, установлению режима шифрования, шифрованию исходящих и дешифрованию входящих сообщений было отделено от основного алгоритма обмена сообщениями.
 
 Можно увидеть в коде
-![image](https://user-images.githubusercontent.com/90453727/144818833-de97e3f4-0c14-469c-8fe6-62e8525e33a0.png)
-![image](https://user-images.githubusercontent.com/90453727/144818859-1947d50f-b14d-4d8f-8b3a-917938470f22.png)
-![image](https://user-images.githubusercontent.com/90453727/144818911-299d951c-a804-4e4d-9e36-13455917955c.png)
+![image](https://user-images.githubusercontent.com/90052680/146570234-32de6b68-5a81-4192-8fdb-d5bb2e7695fd.png)
+![image](https://user-images.githubusercontent.com/90052680/146570307-35a34894-5f6c-479a-9aaf-4b4d4200f3b0.png)
+![image](https://user-images.githubusercontent.com/90052680/146570345-f1516245-4985-438e-87a5-39cb69e65380.png)
+
 
 
 Реализуйте на сервере проверку входящих сертификатов. На сервере должен храниться список разрешенных ключей. Когда клиент посылает на сервер свой публичный ключ, сервер ищет его среди разрешенных и, если такого не находит, разрывает соединение. Проверьте правильность работы не нескольких разных клиентах. Важно! данный пункт предполагает, что ключи уже существуют, поэтому в репозитории приложены файлы с уже созданными ключами. Разрешенные открытые ключи клиентов хранятся в файле allowed.csv
@@ -37,13 +38,15 @@ csv файл с ключами сервера
 
 Модифицируйте код FTP-сервера таким образом, чтобы он поддерживал шифрование.
 ftp_client.py
-![image](https://user-images.githubusercontent.com/90453727/144820044-1caef197-9ab6-4635-8388-3ed1c5c4e8da.png)
+![image](https://user-images.githubusercontent.com/90052680/146570060-7e1c3144-74b9-41c1-b63e-18e7a5cfd092.png)
 ftp_server.py
-![image](https://user-images.githubusercontent.com/90453727/144820116-6a1f0dc1-d147-4972-b78c-f2d49c0e377c.png)
+![image](https://user-images.githubusercontent.com/90052680/146570115-1bf05166-c18c-4536-9350-77f2d98cd3ca.png)
+
+![image](https://user-images.githubusercontent.com/90052680/146570632-e74bf083-c551-4487-9ff4-805c1bf401e8.png)
 
 
-![image](https://user-images.githubusercontent.com/90453727/144819732-b8614a92-170f-4ffa-8930-cd8bf786b828.png)
-![image](https://user-images.githubusercontent.com/90453727/144819810-6d237633-fd0a-4e84-a132-1f1b3538f92c.png)
+
+![image](https://user-images.githubusercontent.com/90052680/146570472-3b8916e2-ed4a-4984-808a-3eb0c32600a9.png)
 
 
 методы send/recv заменены на собственно написанные s_send/s_recv которые поддерживают шифрование. Обмен ключами и генерация происходят при каждом запросе и каждый раз разные соответственно.
