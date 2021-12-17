@@ -1,0 +1,10 @@
+Прослушиваем порт 6666
+request: yangin=loginyanyan=password\=cur_dir0=file_sizels
+response: 
+request: yangin=loginyanyan=password\=cur_dir0=file_sizemkdir Yan
+response: successfully
+Прослушиваем порт 6666
+request: asd=loginojdfgjo=password\=cur_dir0=file_sizepwd
+response: \
+request: asd=loginojdfgjo=password\=cur_dir0=file_sizemkdir 112
+response: successfully
