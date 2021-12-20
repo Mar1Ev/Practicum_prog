@@ -1,0 +1,20 @@
+Прослушиваем порт 6666
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizepwd
+response: \
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizecd C:\Users\solra\Desktop\7. FTP сервер
+response: \
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizepwd
+response: \
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizetouch 123.txt
+response: successfully
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizels
+response: 123.txt
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizemkdir 12345
+response: successfully
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizels
+response: 123.txt
+12345
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizermtree 12345
+response: successfully
+request: Marmorka=loginmarmar=password\=cur_dir0=file_sizeremove 123.txt
+response: successfully
