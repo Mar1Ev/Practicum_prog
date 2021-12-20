@@ -1,26 +1,29 @@
 # Основные задания:
 
 Посмотреть содержимое папки; Верхнее окно - клиент, нижнее - сервер.
-![image](https://user-images.githubusercontent.com/90453727/144823256-16c4cf36-eba5-4ca9-b6c6-30f382824bdd.png)
-![image](https://user-images.githubusercontent.com/90453727/144823584-2628b869-051b-44c0-a7c6-1443411427cb.png)
+![image](https://user-images.githubusercontent.com/90052680/146777641-0c7329c4-6b73-44aa-bdfb-2afed4d79c83.png)
+![image](https://user-images.githubusercontent.com/90052680/146777677-0c11bcf2-7c5a-412d-b74b-098f39f4ec1c.png)
+
 
 Создать папку;
-![image](https://user-images.githubusercontent.com/90453727/144823630-90353de9-3750-4001-9b05-87bfda73e1d3.png)
-![image](https://user-images.githubusercontent.com/90453727/144823649-deb2dfe4-15db-4894-9ddd-e81c6e312fcd.png)
-![image](https://user-images.githubusercontent.com/90453727/144823690-f65074fe-3f86-4215-a5c9-2e4206cdd047.png)
+![image](https://user-images.githubusercontent.com/90052680/146777746-ab039c4b-2cbd-4063-afc0-68df740def5e.png)
+![image](https://user-images.githubusercontent.com/90052680/146777804-fee5b0a8-8958-4e2d-878e-d88895964c5f.png)
+
 
 
 Домашняя папка пользователя
-![image](https://user-images.githubusercontent.com/90453727/144823816-65979100-f512-4fdc-ae76-d3760de5347e.png)
+![image](https://user-images.githubusercontent.com/90052680/146777916-b89e10ac-854d-49d1-aaf7-c711e4abe821.png)
+
 
 В ней созданная нами
-![image](https://user-images.githubusercontent.com/90453727/144823837-fdcb3bde-dd65-4d5d-a5a0-c8f09fcd8192.png)
+![image](https://user-images.githubusercontent.com/90052680/146777976-777ef8d5-73bb-460b-8b2e-78060385a43a.png)
 
 
 Удалить папку;
-![image](https://user-images.githubusercontent.com/90453727/144823938-880a9e13-4095-47e3-9439-312078b7c38d.png)
-![image](https://user-images.githubusercontent.com/90453727/144823979-27e07f00-75c8-4811-8736-0c5dd4a6ba4a.png)
-![image](https://user-images.githubusercontent.com/90453727/144823954-6c60771c-e4e2-4852-8128-c184089d39d6.png)
+![image](https://user-images.githubusercontent.com/90052680/146778029-218c7361-22c4-4515-9d27-470c3b74b15a.png)
+![image](https://user-images.githubusercontent.com/90052680/146778058-2d321fd0-2140-4a55-9619-9c5732f6d922.png)
+![image](https://user-images.githubusercontent.com/90052680/146778085-0d5e925b-bd93-476e-8a12-3c8937cd326f.png)
+
 
 
 Создание и переименование далее
@@ -31,8 +34,9 @@
 ![image](https://user-images.githubusercontent.com/90453727/144825099-ba3da88f-0f3f-48fa-b1e3-0a471b88148c.png)
 ![image](https://user-images.githubusercontent.com/90453727/144825148-a6ea8ff5-878a-40cc-9790-906c7b47f7f2.png)
 Удалить файл;
-![image](https://user-images.githubusercontent.com/90453727/144825224-b0752cee-cc91-41e2-8e10-f649c8dd51e8.png)
-![image](https://user-images.githubusercontent.com/90453727/144825254-f7391680-d2bb-4f78-a38d-09f28b0e7021.png)
+![image](https://user-images.githubusercontent.com/90052680/146778165-39a0ed84-ed7b-4a4e-bd7b-f4187c272d79.png)
+![image](https://user-images.githubusercontent.com/90052680/146778193-48c6c17d-5d80-445f-97a5-3c5ffed2d7fd.png)
+
 
 
 Скопировать файл с клиента на сервер;
