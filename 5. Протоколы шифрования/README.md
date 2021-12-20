@@ -32,8 +32,7 @@ csv файл с ключами сервера
 
 
 После подключения клиента они переключились на новый (рандомный) порт и продолжают общение на нем
-![image](https://user-images.githubusercontent.com/90453727/144819072-93306ee1-fe60-43c4-8790-a84737799a63.png)
-![image](https://user-images.githubusercontent.com/90453727/144819149-f0ff662b-31c0-4ce0-b127-a7483aca2050.png)
+![image](https://user-images.githubusercontent.com/90052680/146770250-27591a28-693b-4a84-b9ec-88e09928cdd6.png)
 
 
 Модифицируйте код FTP-сервера таким образом, чтобы он поддерживал шифрование.
