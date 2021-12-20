@@ -48,19 +48,21 @@
 
 Скопировать файл с клиента на сервер;
 
-![image](https://user-images.githubusercontent.com/90453727/144825466-227c4bd6-162d-4e22-8355-4e1a4752d8a1.png)
-![image](https://user-images.githubusercontent.com/90453727/144825496-e637886e-10b1-46e6-ac6f-15ec8480ce83.png)
+![image](https://user-images.githubusercontent.com/90052680/146790747-b3e52986-a37e-4a1b-8ab3-a7dc332b026a.png)
+![image](https://user-images.githubusercontent.com/90052680/146790785-e6650284-1108-4759-b564-156a584e600a.png)
+![image](https://user-images.githubusercontent.com/90052680/146790835-0ace0c76-60c9-4ad0-aedf-8361bac7f70f.png)
+
 
 
 Скопировать файл с сервера на клиент;
+![image](https://user-images.githubusercontent.com/90052680/146791161-9ed98c62-18ad-41eb-b0d5-90998215d303.png)
+![image](https://user-images.githubusercontent.com/90052680/146791189-13b11b36-9ab1-412b-9537-a4b13989f58c.png)
 
-![image](https://user-images.githubusercontent.com/90453727/144826140-8bcfacf4-5358-4e4e-b92a-d858eec412ca.png)
-![image](https://user-images.githubusercontent.com/90453727/144826183-36a2f05f-0e78-4a35-8328-ff84970d9503.png)
 
 
 Клиент запущен в корневой директории сервера поэтому получается, что скопировали в рабобую директорию клиент, которая является и рабочей директорией сервера
 
-![image](https://user-images.githubusercontent.com/90453727/144826249-c57b1c06-dc83-438d-8685-c61d30d70d56.png)
+![image](https://user-images.githubusercontent.com/90052680/146791244-0808063b-2319-4c01-accf-b53fb7429c0b.png)
 
 
 Выход (отключение клиента от сервера);
@@ -74,9 +76,8 @@
 
 
 Добавьте логирование всех действий сервера в файл. Можете использовать разные файлы для разных действий, например: подключения, авторизации, операции с файлами. Логи пишутся в файл корень сервера log.txt
-
-![image](https://user-images.githubusercontent.com/90453727/144826508-24744e73-1d68-452f-a7f4-ba0e1b4ae3ab.png)
-![image](https://user-images.githubusercontent.com/90453727/144826548-c1ae00cc-94eb-464b-8999-4594f3ec10ec.png)
+![image](https://user-images.githubusercontent.com/90052680/146789753-566bf421-6ad1-4701-be40-2517aaadae22.png)
+![image](https://user-images.githubusercontent.com/90052680/146789800-fe1e6b98-3b7d-46e2-9952-d46a78933264.png)
 
 
 Добавьте возможность авторизации пользователя на сервере.
