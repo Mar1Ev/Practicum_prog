@@ -54,6 +54,6 @@ Connection: close.
 
 Реализуйте поддержку бинарных типов данных, в частночти, картинок.
 ![image](https://user-images.githubusercontent.com/90453727/144665204-098138c3-1bac-465b-a00a-7c0ab2c2d219.png)
-![image](https://user-images.githubusercontent.com/90453727/144665271-ee0c9d9d-66d3-46fd-b6f5-8fa376e8babe.png)
+![image](https://user-images.githubusercontent.com/90052680/146775048-16cfd0e1-cc31-4e65-a3ca-0a15dc8354da.png)
 ![image](https://user-images.githubusercontent.com/90453727/144665331-86a694e8-a7f7-4476-9a7d-a83a9908cdc0.png)
 
