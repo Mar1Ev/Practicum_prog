@@ -1,5 +1,6 @@
 При создании файлового менеджера, отдельно был создан конфигурационный файл (файл с настройками пути) - config.py
-![image](https://user-images.githubusercontent.com/90453727/140779705-29be51fb-49fb-4930-a056-bbc1245f46af.png)
+![image](https://user-images.githubusercontent.com/90052680/147218395-2a848288-3afc-4661-a2f8-460775a7fdbf.png)
+
 
 Список команд при вызове help
 ![image](https://user-images.githubusercontent.com/90453727/140781765-1c9d9d24-5be2-4753-8d5e-52b47256d8e2.png)
